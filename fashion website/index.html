@@ -257,7 +257,7 @@
         length.classList.add("invalid");
       }
       //validate a special charcter 
-      var speciall = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/g;
+      var speciall = /[!@#$%^&*_=+-]/g;
       if (myInput.value.match(speciall)) {
         special.classList.remove("invalid");
         special.classList.add("valid");
